@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Oct 26 16:29:00 2016
+# Process ID: 220
+# Current directory: C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5848 C:\Users\IIIT\Desktop\abhay aman shadab\001Group\priorityencoder\priorityencoder.xpr
+# Log file: C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/vivado.log
+# Journal file: C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.xpr}
+update_compile_order -fileset sources_1
+file mkdir C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new
+file mkdir C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new
+file mkdir C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new
+file mkdir C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new
+file mkdir C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new
+file mkdir {C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new}
+close [ open {C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new/priorityencoder.v} w ]
+add_files -fileset sim_1 {{C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new/priorityencoder.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source priorityencoder.tcl
+close_sim
+launch_simulation
+source priorityencoder.tcl
+close_sim
+launch_simulation
+update_compile_order -fileset sim_1
+launch_simulation
+update_compile_order -fileset sim_1
+launch_simulation
+source priorityencoder2.tcl

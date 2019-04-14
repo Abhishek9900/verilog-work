@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IIIT/Desktop/001Group/FA_DF1/FA_DF1.srcs/sources_1/new/FADF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FADF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IIIT/Desktop/001Group/FA_DF1/FA_DF1.srcs/sim_1/new/FADF_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FA_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IIIT/Desktop/001Group/FA_DF1/FA_DF1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

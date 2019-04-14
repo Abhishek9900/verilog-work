@@ -1,0 +1,14 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 69f4ff2ec5f24d4f9f22f6adc33a7481 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MUX41_TEST_behav xil_defaultlib.MUX41_TEST xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 2 for port S [C:/Users/IIIT/Desktop/001Group/MUX41_GATE/MUX41_GATE.srcs/sim_1/new/MUX41_TEST.v:30]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.MUX41_GATE
+Compiling module xil_defaultlib.MUX41_TEST
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MUX41_TEST_behav

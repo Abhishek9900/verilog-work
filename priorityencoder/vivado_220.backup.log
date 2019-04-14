@@ -1,0 +1,260 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Oct 26 16:29:00 2016
+# Process ID: 220
+# Current directory: C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5848 C:\Users\IIIT\Desktop\abhay aman shadab\001Group\priorityencoder\priorityencoder.xpr
+# Log file: C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/vivado.log
+# Journal file: C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+file mkdir C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new
+file mkdir C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new
+file mkdir C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new
+file mkdir C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new
+file mkdir C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new
+file mkdir {C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new}
+close [ open {C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new/priorityencoder.v} w ]
+add_files -fileset sim_1 {{C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new/priorityencoder.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'priorityencoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav'
+"xvlog -m64 --relax -prj priorityencoder_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priorityencoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto c29644abe51e43d5b66c15f912e837c9 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot priorityencoder_behav xil_defaultlib.priorityencoder xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.priorityencoder
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot priorityencoder_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/IIIT/Desktop/abhay -notrace
+couldn't read file "C:/Users/IIIT/Desktop/abhay": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct 26 16:32:13 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "priorityencoder_behav -key {Behavioral:sim_1:Functional:priorityencoder} -tclbatch {priorityencoder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source priorityencoder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'priorityencoder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'priorityencoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav'
+"xvlog -m64 --relax -prj priorityencoder_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priorityencoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto c29644abe51e43d5b66c15f912e837c9 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot priorityencoder_behav xil_defaultlib.priorityencoder xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.priorityencoder
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot priorityencoder_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/IIIT/Desktop/abhay -notrace
+couldn't read file "C:/Users/IIIT/Desktop/abhay": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct 26 16:33:12 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "priorityencoder_behav -key {Behavioral:sim_1:Functional:priorityencoder} -tclbatch {priorityencoder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source priorityencoder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'priorityencoder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'priorityencoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav'
+"xvlog -m64 --relax -prj priorityencoder_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priorityencoder
+ERROR: [VRFC 10-46] Y is already declared [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:29]
+ERROR: [VRFC 10-46] V is already declared [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:30]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register V is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:33]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register V is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:33]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Y is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:34]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Y is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:34]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Y is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:35]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Y is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:35]
+ERROR: [VRFC 10-1040] module priorityencoder ignored due to previous errors [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'priorityencoder2' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav'
+"xvlog -m64 --relax -prj priorityencoder2_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priorityencoder
+ERROR: [VRFC 10-46] Y is already declared [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:29]
+ERROR: [VRFC 10-46] V is already declared [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:30]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register V is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:33]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register V is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:33]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Y is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:34]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Y is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:34]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Y is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:35]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register Y is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:35]
+ERROR: [VRFC 10-1040] module priorityencoder ignored due to previous errors [C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'priorityencoder2' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav'
+"xvlog -m64 --relax -prj priorityencoder2_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sources_1/new/priorityencoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priorityencoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.srcs/sim_1/new/priorityencoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priorityencoder2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto c29644abe51e43d5b66c15f912e837c9 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot priorityencoder2_behav xil_defaultlib.priorityencoder2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.priorityencoder
+Compiling module xil_defaultlib.priorityencoder2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot priorityencoder2_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/IIIT/Desktop/abhay -notrace
+couldn't read file "C:/Users/IIIT/Desktop/abhay": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct 26 16:35:30 2016...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/IIIT/Desktop/abhay aman shadab/001Group/priorityencoder/priorityencoder.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "priorityencoder2_behav -key {Behavioral:sim_1:Functional:priorityencoder2} -tclbatch {priorityencoder2.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source priorityencoder2.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'priorityencoder2_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns

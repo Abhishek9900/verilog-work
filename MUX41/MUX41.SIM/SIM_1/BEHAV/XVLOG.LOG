@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/001Group/mux41/mux41.srcs/sources_1/new/MUX41.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX41
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/001Group/mux41/mux41.srcs/sim_1/new/MUX41test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX41test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/001Group/mux41/mux41.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
